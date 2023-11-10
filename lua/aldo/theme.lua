@@ -65,7 +65,7 @@ M.base = {
   Macro = { fg = colors.blue_type },
   MatchParen = { fg = colors.white1, bg = colors.black },
   MatchParenCur = { style = "underline" },
-  MatchWord = { bg = colors.visual_select_bg },
+  MatchWord = { style = "underline" },
   MatchWordCur = { style = "underline" },
   ModeMsg = { fg = colors.fg, bg = colors.bg },
   MoreMsg = { fg = colors.orange_wr },
@@ -209,7 +209,7 @@ M.plugins = {
   -----------------------------------------
   --   Cmp:    github.com/hrsh7th/nvim-cmp
   -----------------------------------------
-  CmpItemAbbrDeprecated = { fg = colors.comment },
+  CmpItemAbbrDeprecated = { fg = "#CC0000" },
   CmpDocumentation = { fg = colors.yellow },
   CmpDocumentationBorder = { fg = colors.black1 },
   CmpItemAbbr = { fg = colors.fg },
