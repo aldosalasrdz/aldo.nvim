@@ -211,7 +211,7 @@ M.plugins = {
   -----------------------------------------
   CmpItemAbbrDeprecated = { fg = colors.comment },
   CmpDocumentation = { fg = colors.fg },
-  CmpDocumentationBorder = { fg = colors.black1 },
+  CmpDocumentationBorder = { fg = colors.gray2 },
   CmpItemAbbr = { fg = colors.fg },
   CmpItemAbbrMatch = { fg = colors.blue_type },
   CmpItemAbbrMatchFuzzy = { fg = colors.blue_type },
