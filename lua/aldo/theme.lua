@@ -60,7 +60,7 @@ M.base = {
   Keyword = { fg = colors.red_key_w },
 
   Label = { fg = colors.red_key_w },
-  LineNr = { fg = colors.line_fg, bg = colors.bg },
+  LineNr = { fg = colors.accent, bg = colors.bg },
 
   Macro = { fg = colors.blue_type },
   MatchParen = { fg = colors.white1, bg = colors.black },
@@ -299,10 +299,10 @@ M.plugins = {
   DiagnosticFloatingInfo = { fg = colors.yellow },
   DiagnosticFloatingWarn = { fg = colors.orange_wr },
 
-  DiagnosticSignError = { fg = colors.red_err, bg = colors.line_bg },
-  DiagnosticSignHint = { fg = colors.blue_type, bg = colors.line_bg },
-  DiagnosticSignInfo = { fg = colors.yellow, bg = colors.line_bg },
-  DiagnosticSignWarn = { fg = colors.orange_wr, bg = colors.line_bg },
+  DiagnosticSignError = { fg = colors.red_err, bg = colors.bg },
+  DiagnosticSignHint = { fg = colors.blue_type, bg = colors.bg },
+  DiagnosticSignInfo = { fg = colors.yellow, bg = colors.bg },
+  DiagnosticSignWarn = { fg = colors.orange_wr, bg = colors.bg },
 
   DiagnosticUnderlineError = { style = "underline" },
   DiagnosticUnderlineHint = { style = "underline" },
