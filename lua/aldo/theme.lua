@@ -54,7 +54,7 @@ M.base = {
 
   Identifier = { fg = colors.white1 },
   Ignore = { fg = colors.gray_punc },
-  IncSearch = { fg = colors.bg, bg = colors.orange },
+  IncSearch = { fg = colors.visual_select_bg, bg = colors.fg },
   Include = { fg = colors.blue_type },
 
   Keyword = { fg = colors.red_key_w },
