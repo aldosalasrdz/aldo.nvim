@@ -209,7 +209,8 @@ M.plugins = {
   -----------------------------------------
   --   Cmp:    github.com/hrsh7th/nvim-cmp
   -----------------------------------------
-  CmpItemAbbrDeprecated = { fg = "#CC0000" },
+  CmpNormal = { bg = colors.black1 },
+  CmpItemAbbrDeprecated = { fg = colors.comment },
   CmpDocumentation = { fg = colors.yellow },
   CmpDocumentationBorder = { fg = colors.black1 },
   CmpItemAbbr = { fg = colors.fg },
