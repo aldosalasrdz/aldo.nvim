@@ -74,7 +74,7 @@ M.base = {
 
   NonText = { fg = colors.gray2 },
   Normal = { fg = colors.fg, bg = config.transparent_background and "NONE" or colors.bg },
-  NormalFloat = { bg = colors.dark },
+  NormalFloat = { bg = colors.visual_select_bg },
   NormalNC = { fg = colors.white, bg = config.transparent_background and "NONE" or colors.bg },
   Number = { fg = colors.orange },
 
@@ -462,7 +462,7 @@ M.plugins = {
   -----------------------------------------
   --    telescope: github.com/nvim-telescope/telescope.nvim
   -----------------------------------------
-  TelescopeBorder = { fg = colors.black1, bg = config.transparent_background and "NONE" or colors.bg },
+  TelescopeBorder = { fg = colors.fg, bg = config.transparent_background and "NONE" or colors.bg },
   TelescopeMatching = { fg = colors.blue_type },
   TelescopePromptPrefix = { fg = colors.green_func },
   TelescopeSelection = { bg = colors.visual_select_bg },
