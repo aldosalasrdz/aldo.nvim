@@ -79,10 +79,10 @@ M.base = {
   Number = { fg = colors.orange },
 
   Operator = { fg = colors.white },
-  Pmenu = { fg = colors.white1, bg = colors.black1 },
-  PmenuSbar = { bg = colors.black1 },
-  PmenuSel = { fg = colors.bg, bg = colors.visual_select_bg },
-  PmenuThumb = { bg = colors.black1 },
+  Pmenu = { fg = colors.white1, bg = colors.dark },
+  PmenuSbar = { bg = colors.dark },
+  PmenuSel = { fg = colors.fg, bg = colors.visual_select_bg },
+  PmenuThumb = { bg = colors.dark },
   PreCondit = { fg = colors.blue_type },
   PreProc = { fg = colors.blue_type },
 
