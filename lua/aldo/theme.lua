@@ -60,7 +60,7 @@ M.base = {
   Keyword = { fg = colors.red_key_w },
 
   Label = { fg = colors.red_key_w },
-  LineNr = { fg = colors.line_fg, bg = colors.line_bg },
+  LineNr = { fg = colors.line_fg, bg = colors.bg },
 
   Macro = { fg = colors.blue_type },
   MatchParen = { fg = colors.white1, bg = colors.black },
@@ -262,9 +262,9 @@ M.plugins = {
   -----------------------------------------
   --   Gitsigns: github.com/lewis6991/gitsigns.nvim
   -----------------------------------------
-  GitSignsAdd = { fg = colors.green_func, bg = colors.line_bg },
-  GitSignsChange = { fg = colors.diff_change, bg = colors.line_bg },
-  GitSignsDelete = { fg = colors.red_key_w, bg = colors.line_bg },
+  GitSignsAdd = { fg = colors.green_func, bg = colors.bg },
+  GitSignsChange = { fg = colors.diff_change, bg = colors.bg },
+  GitSignsDelete = { fg = colors.red_key_w, bg = colors.bg },
   -----------------------------------------
 
   -----------------------------------------
