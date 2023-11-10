@@ -60,7 +60,7 @@ M.base = {
   Keyword = { fg = colors.red_key_w },
 
   Label = { fg = colors.red_key_w },
-  LineNr = { fg = colors.line_bg, bg = colors.bg },
+  LineNr = { fg = colors.comment, bg = colors.bg },
 
   Macro = { fg = colors.blue_type },
   MatchParen = { fg = colors.white1, bg = colors.black },
@@ -211,8 +211,8 @@ M.plugins = {
   -----------------------------------------
   CmpItemAbbrDeprecated = { fg = colors.comment },
   CmpDocumentation = { fg = colors.fg },
-  CmpDocumentationBorder = { fg = colors.gray2 },
-  CmpItemAbbr = { fg = colors.fg },
+  CmpDocumentationBorder = { fg = colors.black1 },
+  -- CmpItemAbbr = { fg = colors.fg },
   CmpItemAbbrMatch = { fg = colors.blue_type },
   CmpItemAbbrMatchFuzzy = { fg = colors.blue_type },
   CmpItemKind = { fg = colors.green_func },
@@ -437,7 +437,7 @@ M.plugins = {
   --   Nvim-tree: github.com/kyazdani42/nvim-tree.lua
   -----------------------------------------
   NvimTreeEmptyFolderName = { fg = colors.yellow, style = "italic" },
-  NvimTreeCursorLine = { fg = colors.white, bg = colors.selection_bg },
+  NvimTreeCursorLine = { bg = colors.visual_select_bg },
   NvimTreeExecFile = { fg = colors.green },
   NvimTreeFolderIcon = { fg = colors.comment },
   NvimTreeFolderName = { fg = colors.white1 },
@@ -462,10 +462,10 @@ M.plugins = {
   -----------------------------------------
   --    telescope: github.com/nvim-telescope/telescope.nvim
   -----------------------------------------
-  TelescopeBorder = { fg = colors.gray2, bg = config.transparent_background and "NONE" or colors.bg },
+  TelescopeBorder = { fg = colors.black1, bg = config.transparent_background and "NONE" or colors.bg },
   TelescopeMatching = { fg = colors.blue_type },
   TelescopePromptPrefix = { fg = colors.green_func },
-  TelescopeSelection = { fg = colors.line_fg, bg = colors.black },
+  TelescopeSelection = { bg = colors.visual_select_bg },
   -----------------------------------------
 
   -----------------------------------------
