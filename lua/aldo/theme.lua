@@ -74,8 +74,8 @@ M.base = {
 
   NonText = { fg = colors.gray2 },
   Normal = { fg = colors.fg, bg = config.transparent_background and "NONE" or colors.bg },
-  NormalFloat = { bg = colors.visual_select_bg },
-  NormalNC = { fg = colors.white, bg = config.transparent_background and "NONE" or colors.bg },
+  NormalFloat = { bg = colors.bg },
+  NormalNC = { fg = "#CC0000", bg = config.transparent_background and "NONE" or colors.bg },
   Number = { fg = colors.orange },
 
   Operator = { fg = colors.white },
