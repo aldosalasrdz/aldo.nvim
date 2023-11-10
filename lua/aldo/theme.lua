@@ -41,7 +41,7 @@ M.base = {
   DiffFile = { fg = colors.pink },
   -- DiffIndexLine     = { fg = colors.gray3 },
 
-  -- EndOfBuffer = { fg = colors.bg },
+  EndOfBuffer = { fg = colors.bg },
   Error = { fg = colors.red_key_w, bg = colors.bg, style = "bold" },
   ErrorMsg = { fg = colors.gray, bg = colors.red_err, style = "bold" },
   Exception = { fg = colors.white },
@@ -92,7 +92,7 @@ M.base = {
   Repeat = { fg = colors.red_key_w },
 
   Search = { fg = colors.line_fg, bg = colors.orange },
-  SignColumn = { bg = colors.line_bg },
+  SignColumn = { bg = colors.bg },
   Special = { fg = colors.gray_punc },
   SpecialChar = { fg = colors.yellow },
   SpecialComment = { fg = colors.pink },
