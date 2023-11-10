@@ -72,10 +72,10 @@ M.base = {
   MsgArea = { fg = colors.fg, bg = config.transparent_background and "NONE" or colors.bg },
   MsgSeparator = { fg = colors.fg, bg = colors.bg },
 
-  NonText = { fg = colors.gray2 },
+  NonText = { fg = colors.red_err },
   Normal = { fg = colors.fg, bg = config.transparent_background and "NONE" or colors.bg },
   NormalFloat = { bg = colors.bg },
-  NormalNC = { fg = "#CC0000", bg = config.transparent_background and "NONE" or colors.bg },
+  NormalNC = { fg = colors.white, bg = config.transparent_background and "NONE" or colors.bg },
   Number = { fg = colors.orange },
 
   Operator = { fg = colors.white },
