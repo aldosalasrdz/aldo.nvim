@@ -60,7 +60,7 @@ M.base = {
   Keyword = { fg = colors.red_key_w },
 
   Label = { fg = colors.red_key_w },
-  LineNr = { fg = colors.accent, bg = colors.bg },
+  LineNr = { fg = colors.line_bg, bg = colors.bg },
 
   Macro = { fg = colors.blue_type },
   MatchParen = { fg = colors.white1, bg = colors.black },
@@ -436,9 +436,8 @@ M.plugins = {
   -----------------------------------------
   --   Nvim-tree: github.com/kyazdani42/nvim-tree.lua
   -----------------------------------------
-  NvimTreeFolderIcon = { fg = colors.orange },
   NvimTreeEmptyFolderName = { fg = colors.yellow, style = "italic" },
-  NvimTreeCursorLine = { fg = colors.line_fg, bg = colors.black1 },
+  NvimTreeCursorLine = { fg = colors.white, bg = colors.selection_bg },
   NvimTreeExecFile = { fg = colors.green },
   NvimTreeFolderIcon = { fg = colors.comment },
   NvimTreeFolderName = { fg = colors.white1 },
@@ -463,7 +462,7 @@ M.plugins = {
   -----------------------------------------
   --    telescope: github.com/nvim-telescope/telescope.nvim
   -----------------------------------------
-  TelescopeBorder = { fg = colors.white, bg = config.transparent_background and "NONE" or colors.bg },
+  TelescopeBorder = { fg = colors.gray2, bg = config.transparent_background and "NONE" or colors.bg },
   TelescopeMatching = { fg = colors.blue_type },
   TelescopePromptPrefix = { fg = colors.green_func },
   TelescopeSelection = { fg = colors.line_fg, bg = colors.black },
