@@ -278,7 +278,7 @@ M.plugins = {
   -----------------------------------------
   --  Indent-blankline: github.com/lukas-reineke/indent-blankline.nvim
   -----------------------------------------
-  IndentBlanklineChar = { fg = colors.black1 },
+  IndentBlanklineChar = { fg = colors.black },
   IndentBlanklineContextChar = { fg = colors.gray2 },
   IndentBlanklineSpaceChar = { fg = colors.white1 },
   IndentBlanklineSpaceCharBlankline = { fg = colors.yellow },
