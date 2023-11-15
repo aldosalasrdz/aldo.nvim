@@ -129,7 +129,7 @@ M.base = {
   VisualNOS = { fg = colors.selection_fg, bg = colors.selection_bg },
 
   WarningMsg = { fg = colors.orange_wr, bg = colors.none },
-  Whitespace = { fg = colors.black },
+  Whitespace = { fg = colors.whitespace },
   WildMenu = { fg = colors.fg },
   lCursor = { fg = colors.cursor_fg, bg = colors.cursor_bg },
 
