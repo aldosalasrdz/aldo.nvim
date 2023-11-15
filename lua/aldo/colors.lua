@@ -23,7 +23,7 @@ return {
   vsplit_fg = "#cccccc",
   vsplit_bg = "#2E2930",
   visual_select_bg = "#29292E",
-  whitespace = "#262628",
+  whitespace = "#2c2c2e",
 
   red_key_w = "#FF7DA3",
   red_err = "#D95555",
