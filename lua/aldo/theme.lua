@@ -26,7 +26,7 @@ M.base = {
   Cursor = { fg = colors.yellow, bg = colors.bg },
   CursorColumn = { fg = "NONE", bg = "NONE" },
   -- CursorIM = { fg = colors.cursor_fg, bg = colors.cursor_bg },
-  CursorLine = { bg = colors.black1 },
+  CursorLine = { bg = colors.black2 },
   CursorLineNr = { fg = colors.white, bg = colors.gutter_bg, style = "bold" },
 
   Debug = { fg = colors.fg },
@@ -279,7 +279,7 @@ M.plugins = {
   --  Indent-blankline: github.com/lukas-reineke/indent-blankline.nvim
   -----------------------------------------
   IndentBlanklineChar = { fg = colors.black },
-  IndentBlanklineContextChar = { fg = colors.black },
+  IndentBlanklineContextChar = { fg = colors.black, bg = colors.bg },
   IndentBlanklineSpaceChar = { fg = colors.white1 },
   IndentBlanklineSpaceCharBlankline = { fg = colors.yellow },
   -----------------------------------------
