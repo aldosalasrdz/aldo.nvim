@@ -26,8 +26,8 @@ M.base = {
   Cursor = { fg = colors.yellow, bg = colors.bg },
   CursorColumn = { fg = "NONE", bg = "NONE" },
   -- CursorIM = { fg = colors.cursor_fg, bg = colors.cursor_bg },
-  CursorLine = { bg = colors.black2 },
-  CursorLineNr = { fg = colors.white, bg = colors.black2, style = "bold" },
+  CursorLine = { bg = colors.visual_select_bg },
+  CursorLineNr = { fg = colors.white, bg = colors.visual_select_bg, style = "bold" },
 
   Debug = { fg = colors.fg },
   Define = { fg = colors.blue_type },
@@ -125,7 +125,7 @@ M.base = {
 
   Variable = { fg = colors.white },
   VertSplit = { fg = colors.vsplit_bg },
-  Visual = { fg = "NONE", bg = colors.black2, style = "bold" },
+  Visual = { fg = "NONE", bg = colors.visual_select_bg, style = "bold" },
   VisualNOS = { fg = colors.selection_fg, bg = colors.selection_bg },
 
   WarningMsg = { fg = colors.orange_wr, bg = colors.none },
