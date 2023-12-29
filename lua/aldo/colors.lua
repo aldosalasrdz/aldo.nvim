@@ -27,8 +27,8 @@ return {
 
   red_key_w = "#FF7DA3",
   red_err = "#D95555",
-  green_func = "#7EC49D",
-  green = "#7EC49D",
+  green_func = "#E5C890",
+  green = "#E5C890",
   blue_type = "#8BB8D0",
   black2 = "#181818",
   black1 = "#29292E",
