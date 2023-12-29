@@ -21,7 +21,7 @@ M.base = {
   ColorColumn = { bg = colors.black1 },
   Comment = { fg = colors.comment, style = "italic" },
   Conceal = { fg = colors.fg }, -- {bg = config.transparent_background and 'NONE' or colors.bg },
-  Conditional = { fg = colors.red_key_w },
+  Conditional = { fg = colors.conditional },
   Constant = { fg = colors.pink },
   Cursor = { fg = colors.yellow, bg = colors.bg },
   CursorColumn = { fg = "NONE", bg = "NONE" },
@@ -409,7 +409,7 @@ M.plugins = {
   -----------------------------------------
   -- for python language:
   -----------------------------------------
-  pythonConditional = { fg = colors.red_key_w },
+  pythonConditional = { fg = colors.conditional },
   pythonException = { fg = colors.pink },
   pythonFunction = { fg = colors.green_func },
   pythonInclude = { fg = colors.red_key_w },
@@ -542,7 +542,7 @@ M.plugins = {
   ["@character"] = { fg = colors.yellow },
   ["@character.special"] = { fg = colors.yellow },
   ["@comment"] = { fg = colors.comment, style = "italic" },
-  ["@conditional"] = { fg = colors.red_key_w },
+  ["@conditional"] = { fg = colors.conditional },
   ["@constant.builtin"] = { fg = colors.pink },
   ["@constant.macro"] = { fg = colors.blue_type },
   ["@constant"] = { fg = colors.pink },

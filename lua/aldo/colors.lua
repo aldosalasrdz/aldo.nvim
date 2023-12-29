@@ -26,6 +26,7 @@ return {
   whitespace = "#2c2c2e",
 
   red_key_w = "#FF7DA3",
+  conditional = "#a8a29e",
   red_err = "#D95555",
   green_func = "#E5C890",
   green = "#E5C890",
