@@ -54,7 +54,7 @@ M.base = {
 
   Identifier = { fg = colors.white1 },
   Ignore = { fg = colors.gray_punc },
-  IncSearch = { fg = colors.visual_select_bg, bg = colors.fg },
+  IncSearch = { fg = colors.pink, bg = colors.fg },
   Include = { fg = colors.blue_type },
 
   Keyword = { fg = colors.red_key_w },
@@ -365,32 +365,32 @@ M.plugins = {
   -----------------------------------------
   --   LspDiagnostics:
   -----------------------------------------
-  LspDiagnosticsDefaultHint = { fg = colors.blue_type }, -- Deprecated
-  LspDiagnosticsError = { fg = colors.red_err }, -- Deprecated
-  LspDiagnosticsFloatingError = { fg = colors.red_err }, -- Deprecated
-  LspDiagnosticsFloatingHint = { fg = colors.blue_type }, -- Deprecated
-  LspDiagnosticsFloatingInformation = { fg = colors.yellow }, -- Deprecated
-  LspDiagnosticsFloatingWarning = { fg = colors.orange_wr }, -- Deprecated
-  LspDiagnosticsHint = { fg = colors.blue_type }, -- Deprecated
-  LspDiagnosticsInformation = { fg = colors.yellow }, -- Deprecated
-  LspDiagnosticsSignHint = { fg = colors.blue_type }, -- Deprecated
-  LspDiagnosticsSignInformation = { fg = colors.yellow }, -- Deprecated
-  LspDiagnosticsSignWarning = { fg = colors.orange_wr }, -- Deprecated
-  LspDiagnosticsUnderlineError = { style = "underline" }, -- Deprecated
-  LspDiagnosticsUnderlineHint = { style = "underline" }, -- Deprecated
-  LspDiagnosticsUnderlineWarning = { style = "underline" }, -- Deprecated
-  LspDiagnosticsVirtualTextWarning = { fg = colors.orange_wr }, -- Deprecated
-  LspDiagnosticsWarning = { fg = colors.orange_wr }, -- Deprecated
-  LspReferenceRead = { bg = colors.fg_gutter, style = "bold" }, -- Deprecated
-  LspReferenceText = { bg = colors.fg_gutter, style = "bold" }, -- Deprecated
+  LspDiagnosticsDefaultHint = { fg = colors.blue_type },         -- Deprecated
+  LspDiagnosticsError = { fg = colors.red_err },                 -- Deprecated
+  LspDiagnosticsFloatingError = { fg = colors.red_err },         -- Deprecated
+  LspDiagnosticsFloatingHint = { fg = colors.blue_type },        -- Deprecated
+  LspDiagnosticsFloatingInformation = { fg = colors.yellow },    -- Deprecated
+  LspDiagnosticsFloatingWarning = { fg = colors.orange_wr },     -- Deprecated
+  LspDiagnosticsHint = { fg = colors.blue_type },                -- Deprecated
+  LspDiagnosticsInformation = { fg = colors.yellow },            -- Deprecated
+  LspDiagnosticsSignHint = { fg = colors.blue_type },            -- Deprecated
+  LspDiagnosticsSignInformation = { fg = colors.yellow },        -- Deprecated
+  LspDiagnosticsSignWarning = { fg = colors.orange_wr },         -- Deprecated
+  LspDiagnosticsUnderlineError = { style = "underline" },        -- Deprecated
+  LspDiagnosticsUnderlineHint = { style = "underline" },         -- Deprecated
+  LspDiagnosticsUnderlineWarning = { style = "underline" },      -- Deprecated
+  LspDiagnosticsVirtualTextWarning = { fg = colors.orange_wr },  -- Deprecated
+  LspDiagnosticsWarning = { fg = colors.orange_wr },             -- Deprecated
+  LspReferenceRead = { bg = colors.fg_gutter, style = "bold" },  -- Deprecated
+  LspReferenceText = { bg = colors.fg_gutter, style = "bold" },  -- Deprecated
   LspReferenceWrite = { bg = colors.fg_gutter, style = "bold" }, -- Deprecated
-  LspDiagnosticsDefaultError = { fg = colors.red_err }, -- Deprecated
-  LspDiagnosticsSignError = { fg = colors.red_err }, -- Deprecated
-  LspDiagnosticsDefaultWarning = { fg = colors.yellow }, -- Deprecated
-  LspDiagnosticsDefaultInformation = { fg = colors.yellow }, -- Deprecated
-  LspDiagnosticsVirtualTextHint = { fg = colors.gray2 }, -- Deprecated
+  LspDiagnosticsDefaultError = { fg = colors.red_err },          -- Deprecated
+  LspDiagnosticsSignError = { fg = colors.red_err },             -- Deprecated
+  LspDiagnosticsDefaultWarning = { fg = colors.yellow },         -- Deprecated
+  LspDiagnosticsDefaultInformation = { fg = colors.yellow },     -- Deprecated
+  LspDiagnosticsVirtualTextHint = { fg = colors.gray2 },         -- Deprecated
   LspDiagnosticsVirtualTextInformation = { fg = colors.yellow }, -- Deprecated
-  LspDiagnosticsUnderlineInformation = { style = "underline" }, -- Deprecated
+  LspDiagnosticsUnderlineInformation = { style = "underline" },  -- Deprecated
   -----------------------------------------
 
   -----------------------------------------
@@ -474,15 +474,15 @@ M.plugins = {
   -----------------------------------------
   -----------------------------------------
   TroubleTextInformation = { fg = colors.blue_type },
-  TroubleFile = { fg = colors.yellow }, -- the source file that has error
+  TroubleFile = { fg = colors.yellow },        -- the source file that has error
   TroubleFoldIcon = { fg = colors.blue_type }, -- fold icon color
   TroubleCount = { fg = colors.red_key_w },
   TroubleError = { fg = colors.red_key_w, bg = colors.line_fg },
 
   TroubleTextError = { fg = colors.red_key_w }, -- error info text
   TroubleNormal = { fg = colors.white },
-  TroubleLocation = { fg = colors.white }, -- location of error
-  TroubleIndent = { fg = colors.comment }, -- indent color
+  TroubleLocation = { fg = colors.white },      -- location of error
+  TroubleIndent = { fg = colors.comment },      -- indent color
 
   TroubleCode = { fg = colors.orange_wr },
   TroubleSignError = { fg = colors.red_key_w }, -- error sign color
