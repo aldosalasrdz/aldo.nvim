@@ -1,6 +1,6 @@
 return {
   fg = "#DED7D0",
-  bg = "#101010",
+  bg = "#0a0b0c",
   none = "#1E1D23",
   --17161B
   dark = "#1A191E",
